@@ -9,6 +9,9 @@
         "inlineSources": true,
         "declarationMap": true,
 
+        "baseUrl": "../src",
+        "jsx": "react",
+
         "rootDir": "../src",
         "outDir": "../dist",
 
