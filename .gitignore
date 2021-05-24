@@ -12,3 +12,5 @@ dist/**
 *yarn-error.log
 
 **/.webpack-cache
+
+**/build/
