@@ -4,4 +4,5 @@ import path from 'path';
 new WebpackBuilder({
     projectDirectory: path.join(__dirname, '..'),
     tsconfigFilePath: path.join(__dirname, '../config/tsconfig.src.json'),
+    enableServiceWorker: true,
 }).run();
